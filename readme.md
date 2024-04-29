@@ -3,7 +3,7 @@
 ## Task scope
 
 1. Get familiar with PIU and Pike ecosystem
-2. Investigate technology stack behind the https://piu.pike.finance/
+2. Investigate technology stack behind the <https://piu.pike.finance/>
 3. Make a guess and instight on the resource plan
 
 ## Tech stack
@@ -33,7 +33,7 @@
 #### Analythics
 
 1. Event traking - not detected - Recommended Amplitude
-2. A/B testing - not detected recomended Growth Book
+2. A/B testing - not detected - Recomended Growth Book
 3. Web visor - not detected  
 
 #### Security
@@ -46,7 +46,17 @@
 2. Wallet connect React SDK
 3. Rabby wallet React SDK
 
-### Blockchain
+### Backend
+
+#### Backend tech stack
+
+1. Javascript
+2. NodeJS
+3. Typescript
+4. Prisma for database
+5. Express for web requests and DI
+
+### Chain
 
 #### Blockchain networks
 
@@ -55,13 +65,13 @@
 + Optimism - supports Solidity
 + Ethereum - Support Solidity
 
-## Goal
-
-Launch fair bootstrap campaign for PIKE platform. Pike platform serves as a money market, where users can lend and borrow by asset basket on various chains. You may lend monney on, say, Ethereum and borrow on Optimism.
+Considering the highlighted networks supported for crowdloan campaign I believe Solidity language as the primary smart contract language.
 
 ## Scope
 
 1 pager website for crowdloan and allocation campaign
+
+## Frontend
 
 ### Lamding page
 
@@ -113,9 +123,27 @@ Launch fair bootstrap campaign for PIKE platform. Pike platform serves as a mone
 + Static content - table
 + Q&A dropdowns
 
+## Backend
+
+### Backend services
+
+1. Integration with discord
+2. Service for tier and allocation calculation based on the discord role.
+
+## Chain
+
+### Smart contract for token
+
+Methods:
+
+1. Burn - burn x PIU to participate in the crownload campaign
+2. Claim - claim allocated PIU tokens for the specified account
+
+This includes updating contract on chain. Here there is an assumption that token contract has been already created according to ERC-20 specification, contract base contract has been already deployed.
+
 ## Resources required
 
-COnsidering a team already has a dedicated designer, various team compositions are available to perform the specified taks. This team compositions may include outsourcing developers/outstaffing to optimise costs and balance the load between roles.
+Considering a team already has a dedicated designer, various team compositions are available to perform the specified taks. This team compositions may include outsourcing developers/outstaffing to optimise costs and balance the load between roles.
 
 ### Resource required - option 1
 
