@@ -128,7 +128,7 @@ Considering the highlighted networks supported for crowdloan campaign I believe 
 ### Backend services
 
 1. Integration with discord
-2. Service for tier and allocation calculation based on the discord role.
+2. Service for tier and allocation calculation based on the discord role for a user.
 
 ## Chain
 
@@ -143,16 +143,22 @@ This includes updating contract on chain. Here there is an assumption that token
 
 ## Resources required
 
-Considering a team already has a dedicated designer, various team compositions are available to perform the specified taks. This team compositions may include outsourcing developers/outstaffing to optimise costs and balance the load between roles.
+Considering a team already has a dedicated designer, various team compositions are available to perform the specified taks. This team compositions may include outsourcing developers/outstaffing (like ousourcing HTML/CSS development to better utilize the capacity of the Senior Frontend developer) to optimise costs and balance the load between roles.
 
 ### Resource required - option 1
 
-1. Senior Frontend React develop with experience in web3 development, NodeJS development for web servcer.
+1. Senior Frontend React develop with experience in web3 development, NodeJS development for web server.
+2. Senior QA - manual, with experience testing web3 applications
+3. Senior/Middle Smart contract developer with experience build on Solidity and smart concract deployment
+
+### Resource required - option 2
+
+1. Senior Frontend React develop with experience in web3 development.
 2. Backend developer, NodeJS stack
 3. Senior QA - manual, with experience testing web3 applications
 4. Senior/Middle Smart contract developer with experience build on Solidity and smart concract deployment
 
-#### Resources required - option 2
+### Resources required - option 3
 
 1. Senior Frontend React develop with experience in web3 development, NodeJS development for web servcer.
 2. Senior Smart contract and backend developer - former backend developer specializing in smart contracts on Solidity
@@ -160,7 +166,7 @@ Considering a team already has a dedicated designer, various team compositions a
 
 #### Conclusion
 
-Considering that there is not a lot of smart contract development for crowdloan campaign I would suggest moving with option 2, as it requires less people and less communication noise. It will alo help balance the load between the backend, smartcontract and frontend development.
+Considering that there is not a lot of smart contract development for crowdloan campaign I would suggest moving with option 3, as it requires less people and less communication noise. It will also help balance the load between the backend, smartcontract and frontend development.
 
 #### Estimates
 
